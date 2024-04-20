@@ -4,6 +4,11 @@
 
 This project is a web application built using React with Next.js, incorporating Web3 technology to create a decentralized platform for gifting coffee to the developer. Inspired by the concept of popular "buy me a coffee" websites, this application allows users to gift coffee to the developer using cryptocurrencies like Matic (MATIC). Users can input their name, a message, and choose the price of the coffee they want to gift. They need to connect their wallets to the application to complete the transaction.
 
+
+
+https://github.com/calc1f4r/Buy-me-a-Coffee/assets/74751675/62c1a281-0248-4850-882a-d32c37b2228b
+
+
 ### ✨Features
 
 1.  Gift Coffee: Users can input their name, a message, and select the price of the coffee they want to gift to the developer. Upon clicking the "Buy Me A Coffee" button, the transaction is executed through a Web3 contract.
