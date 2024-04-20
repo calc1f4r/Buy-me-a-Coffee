@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.blur-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/background-coffee-shop.jpg") center/cover no-repeat;
+  filter: blur(2px);
+  z-index: -1;
+}
